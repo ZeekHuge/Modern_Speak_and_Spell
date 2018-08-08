@@ -42,8 +42,8 @@ export PYTHONPATH=/usr/local/lib/python2.7/site-packages/
 ```
 Clone various repositories needed to /root/ folder:
 ```
- git clone https://github.com/cmusphinx/sphinxbase.git
- git clone https://github.com/cmusphinx/pocketsphinx.git
+ git clone --depth=1 https://github.com/cmusphinx/sphinxbase.git
+ git clone --depth=1 https://github.com/cmusphinx/pocketsphinx.git
  git clone https://github.com/AnirbanBanik1998/Modern_Speak_and_Spell.git
 ```
 Install bison:
